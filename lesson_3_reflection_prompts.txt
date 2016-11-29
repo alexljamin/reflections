@@ -45,7 +45,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    The could be different ways to collaborate without using Git, GitHub or both:
+    1. Setting git on premises and not using GitHub as a hosting
+    2. Using Mercurial, SVN (haven’t use any of these two myself), Microsoft Team Services
+       or any other version control system or hosting.
+    
+    The usage of different systems can be harder to learn, but it could be more applicable 
+    to specific types of projects, ex. systems not connected to the intranet - not the 
+    public internet.
+    
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
