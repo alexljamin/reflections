@@ -10,7 +10,10 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    This way it is easier to determine that everyone started working on the same 
+    version of the file and git doesn’t need to worry about constant comparison
+    of all the current changes. When someone in the team is finished with working 
+    on his/her part others can start pulling the newly added changes.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
