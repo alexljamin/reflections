@@ -58,4 +58,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to introduce something new that you’re not sure about and want someone 
+    from your team to have a look on it first before merging into master.
+    I cannot see a benefit of not using a separate branch as I am not aware of alternative
+    practice to test or try things.
