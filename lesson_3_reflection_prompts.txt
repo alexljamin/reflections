@@ -34,7 +34,13 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The local copy of the last known state of the remote represents the last time 
+    the communication with a network happened or the point after which you have local -
+    not pushed changes. As remote branch gets updated and your local branch gets
+    updated separately none of the changes get lost. Using “git fetch” would take the 
+    changes made to the remote and store it locally along with changes what you have made.  
+    This really useful because it is easy to update the last known state of the remote by
+    merging local and remote changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
